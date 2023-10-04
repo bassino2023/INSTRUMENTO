@@ -1,0 +1,38 @@
+
+
+body{
+    background-color: black;
+    background-image: url("https://masterampli.com/wp-content/webpc-passthru.php?src=https://masterampli.com/wp-content/uploads/2020/01/multiefecto.jpg&nocache=1");
+    background-size:cover;
+    background-position:center;
+  } 
+  
+  
+  .contenedor1 {
+    text-align: center;
+    width: 800px;
+    height: 70px;
+    display:flex;
+    position:absolute;
+    bottom:80px;
+    
+    justify-content:flex-end;
+  }
+    
+   #triangle{background-color: yellow; border-width: 10px;
+    border-color: brown;}
+  #square{background-color: purple; border-width: 10px;
+    border-color: brown;}
+  #sawtooth{background-color: red; border-width: 10px;
+    border-color: brown;}
+  #sine{background-color: fuchsia; border-width: 10px;
+    border-color: brown;}
+  #delay{background-color: aquamarine; border-width: 10px;
+    border-color: brown;}
+  #filter{background-color: chartreuse; border-width: 10px;
+    border-color: brown;}
+  
+  #distor{background-color: lime;
+    border-width: 10px;
+    border-color: brown;
+  }

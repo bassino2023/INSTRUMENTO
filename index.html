@@ -1,0 +1,63 @@
+<html lang="en"> 
+<head><link rel="stylesheet" href="./style.css">
+    <link rel="javascript" href="./main.js"></head>
+  <header>
+      <script src="https://unpkg.com/tone"></script>
+    
+    <form name="myform">
+      <div id="myform">
+        tempo:<select name="tempo">
+        <option value="60">60</option>
+        <option value="70">60</option>
+        <option value="80">60</option>
+        <option value="90">60</option>
+        <option value="100">60</option>
+        <option value="110">60</option>
+        <option value="120">120</option>
+        </select>
+        
+        volume:<select name="volume">
+        <option value="-30">-30</option>
+        <option value="-20">-20</option>
+        <option value="-10">-10</option>
+        <option value="0">0</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+        
+        
+        input a mote:<input type="text" size="5"
+      name="notelist" value="A4">
+      </div>
+      </form>
+    
+  </header>
+  
+  
+
+  
+  
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nombre de la página</title> 
+   
+
+</head>
+  
+  <!--voy bastante bien-->
+  <body>
+    <div class="contenedor1">
+      <button id= "triangle" onclick="triangle()">triangulo</button>
+      <button id="square"onclick="square()"> cuadrado</button>
+      <button id="sawtooth"onclick="sawtooth()"> diente</button>
+      <button id="sine"onclick="sine()"> sinusoide</button>
+    
+     <button id="delay"onclick="delay()"> delay</button>
+     <button id="filter"onclick="delay()">filtro</button>
+  <button id="distor"onclick="distor()">distorsion</button>
+  </div>
+  </body>
+  
+  
+</html>
